@@ -79,7 +79,6 @@ print("Lists created")
 
 res = 0
 
-
         
 class myThread (threading.Thread):
     def __init__(self, threadID, name, aux, companies):

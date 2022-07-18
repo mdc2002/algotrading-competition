@@ -25,8 +25,8 @@ companies = list(data.columns)[1:]
 #df_pvals, df_ratios = tabulate_cointeg_pvals_ratios(data, only_significant=0)
 #print(df_pvals)
 #print(df_ratios)
-
 #data=data_loader()
+
 cointeg_comp_pairs = cointeg_significant_pairs(data, alpha=0.01)
 print(cointeg_comp_pairs)
 
